@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+.container {
+    text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home {
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.players {
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fun-facts {
+
 }
 
-.App-link {
-  color: #61dafb;
+.rules {
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.scoreboard {
+
 }
+
+.chat {
+
+}
+
+.bets {
+
+}
+
+.button-layout {
+    display: grid;
+    padding-left: 150px;
+    padding-top: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    width: 70%;
+}
+
+.medium-button {
+    width: 70%;
+    height: 180%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.medium-button:hover {
+    background-color: #0056b3;
+}
+
+.player-image {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.score-table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%; /* You can adjust the width as needed */
+}
+
+.score-table th,
+.score-table td {
+    padding: 8px 16px; /* Adjust the padding to spread out the columns */
+}
+
+.score-table th {
+    background-color: #f2f2f2; /* Add a background color to the headers */
+    font-weight: bold;
+}
+
+.score-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Add a background color to even rows for better readability */
+}
+
+
+
+
