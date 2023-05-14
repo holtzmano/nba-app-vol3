@@ -12,7 +12,7 @@ import Players from "./Players";
 function App() {
   return (
     <div className="container">
-      <Router>
+      <Router basename="/nba-app-vol3">
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route path="/players" element={<Players />}></Route>
